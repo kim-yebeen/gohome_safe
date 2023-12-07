@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    tools:context=".SignActivity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/safee"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="이름"
+            android:fontFamily="@font/nanumsquare_mb"/>
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_lb"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="비밀번호"
+            android:fontFamily="@font/nanumsquare_mb"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_lb"
+            android:inputType="numberPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 확인"
+            android:fontFamily="@font/nanumsquare_mb"/>
+
+        <EditText
+            android:id="@+id/edit_passwordcheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_lb"
+            android:inputType="numberPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:fontFamily="@font/nanumsquare_mb"/>
+
+        <EditText
+            android:id="@+id/edit_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_lb"
+            android:inputType="phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="비상연락처"
+            android:fontFamily="@font/nanumsquare_mb"/>
+
+        <EditText
+            android:id="@+id/edit_egnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_lb"
+            android:inputType="phone"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가입하기"
+        android:fontFamily="@font/nanumsquare_mb"
+        android:id="@+id/button_singup"/>
+
+
+</LinearLayout>

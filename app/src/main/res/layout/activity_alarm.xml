@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".alarm">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/safee"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="중지하려면 클릭하세요"
+        android:fontFamily="@font/nanumsquare_mb"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3분 후 자동으로 112에 전화 연결"
+        android:fontFamily="@font/nanumsquare_mb"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="25dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
