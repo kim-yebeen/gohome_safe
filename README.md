@@ -8,6 +8,10 @@
 
 ### 앱기능
 - 로그인, 회원가입
-- 출발지 설정, 목적지 설정, 경로계산
+- 출발지 설정, 목적지 설정, 경로계산 - googlemapapi를 사용하여 구현하였습니다.
 - 타이머 기능
 - 알람 기능
+
+
+## 발표 자료
+자세한내용은 [여기](https://drive.google.com/file/d/15DkTDxtKeG5FImIElclMupFT_HXjiKar/view?usp=sharing)에서 확인하실 수 있습니다.
